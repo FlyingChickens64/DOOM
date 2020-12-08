@@ -10,7 +10,6 @@ To build xdoom, run:
 git clone https://github.com/FlyingChickens64/DOOM.git
 cd DOOM
 cd linuxdoom-1.10
-mkdir linux
 make
 ```
 linuxxdoom will be in the linux directory, it requires a wad to run and must be named doom.wad (case sensitive)
