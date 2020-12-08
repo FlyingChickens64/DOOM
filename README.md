@@ -1,4 +1,18 @@
 This fork attemps to fix building errors on modern linux.
+You'll need some libraries to build it. To install them on debian based systems, run:
+```bash
+sudo apt install gcc-multilib git
+```
+To build xdoom, run:
+```bash
+git clone https://github.com/FlyingChickens64/DOOM.git
+cd DOOM
+cd linuxdoom-1.10
+mkdir linux
+make
+```
+linuxxdoom will be in the linux directory, it requires a wad to run and must be named doom.wad (case sensitive)
+Right now it requires an 8 bit display. Try to find instructions on google. (Or hopefully I'll find a way to make it work without)
 
 Original README:
 Here it is, at long last.  The DOOM source code is released for your
