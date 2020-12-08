@@ -1,3 +1,5 @@
+# DOOM
+
 This fork attemps to fix building errors on modern linux.
 You'll need some libraries to build it. To install them on debian based systems, run:
 ```bash
@@ -14,7 +16,8 @@ make
 linuxxdoom will be in the linux directory, it requires a wad to run and must be named doom.wad (case sensitive)
 Right now it requires an 8 bit display. Try to find instructions on google. (Or hopefully I'll find a way to make it work without)
 
-Original README:
+# Original README:
+
 Here it is, at long last.  The DOOM source code is released for your
 non-profit use.  You still need real DOOM data to work with this code.
 If you don't actually own a real copy of one of the DOOMs, you should
