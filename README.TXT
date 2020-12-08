@@ -1,4 +1,7 @@
+This fork attemps to fix building errors on modern linux.
 
+Original README:
+This is an attempt to get linuxxdoom to compile on modern
 Here it is, at long last.  The DOOM source code is released for your
 non-profit use.  You still need real DOOM data to work with this code.
 If you don't actually own a real copy of one of the DOOMs, you should
