@@ -16,6 +16,8 @@ make
 linuxxdoom will be in the linux directory, it requires a wad to run and must be named doom.wad (case sensitive)
 Right now it requires an 8 bit display. Try to find instructions on google. (Or hopefully I'll find a way to make it work without)
 
+If you want an actual working version based off of SDL go to github.com/aserebryakov/sdl_doom
+
 ## Original README:
 
 Here it is, at long last.  The DOOM source code is released for your
