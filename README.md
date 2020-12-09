@@ -17,7 +17,7 @@ make
 linuxxdoom will be in the linux directory, it requires a wad to run and must be named doom.wad (case sensitive)
 Right now it requires an 8 bit display. Try to find instructions on google.
 
-Alternativly, you can use an embedded X server.
+Alternatively, you can use an embedded X server.
 ```bash
 xinit $(which xterm) -- $(which Xephyr) :1 -screen 320x200x8 -br -reset -terminate
 ```
