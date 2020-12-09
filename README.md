@@ -2,8 +2,8 @@
 
 ![E1M1](https://i.imgur.com/tCmu4Y7.png)
 
-This fork attemps to fix building errors on modern linux.
-You'll need some libraries to build it. To install them on debian based systems, run:
+This fork attempts to fix building errors on modern Linux.
+You'll need some libraries to build it. To install them on Debian based systems, run:
 ```bash
 sudo apt install gcc-multilib git
 ```
@@ -15,14 +15,14 @@ cd linuxdoom-1.10
 make
 ```
 linuxxdoom will be in the linux directory, it requires a wad to run and must be named doom.wad (case sensitive)
-Right now it requires an 8 bit display. Try to find instructions on google.
+Right now it requires an 8 bit display. Try to find instructions on Google.
 
-Alternatively, you can use an embedded X server.
+Alternatively, you can use an embedded X server:
 ```bash
 xinit $(which xterm) -- $(which Xephyr) :1 -screen 320x200x8 -br -reset -terminate
 ```
 
-If you want an actual working version based off of SDL go to [sdl_doom](https://github.com/aserebryakov/sdl_doom)
+If you want a better version based off of SDL go to [sdl_doom](https://github.com/aserebryakov/sdl_doom)
 
 ## Original README:
 
